@@ -1,11 +1,11 @@
 const port= 33233;
-const conf_path=process.argv.reverse()[0] || 'conf.json';
-const { path, ex_id } = require(conf_path.replace('/','./'));
+let conf_path='./conf.json';
+const { path, ex_id } = require(conf_path);
 const watch = require('node-watch');
 const io = require('socket.io').listen(port);
 let ex_io;
 
-console.log(`Start wather path "${path}" on port ${port}.`);
+console.log(`Start watcher path "${path}" on port ${port}.`);
 
 io.sockets.on('connection', socket => {
     console.log('Success connect EX');
