@@ -1,0 +1,14 @@
+{
+   "name": "Chrome Extension Reloader",
+   "version": "1.0",
+   "manifest_version": 2,
+   "background": {"scripts": ["js/io.js", "js/bg.js"] },
+   "browser_action": {
+       "default_icon": "favicon.png",
+       "default_title": "Reload extension"
+   },
+     "icons": {
+      "128": "icon128.png"
+   },
+   "permissions": ["management"]
+}
