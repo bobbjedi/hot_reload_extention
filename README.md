@@ -9,7 +9,7 @@ cd watcher
 npm i
 ```
 2. Install the extension along the path `/ ex` in developer mode.
-3. fill in the `conf.json` file or create your own.
+3. Fill in the `conf.json` file or create your own.
 4. Run the watcher:
 ```
 node watcher ./config_watcher.json
