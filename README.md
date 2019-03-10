@@ -7,6 +7,7 @@ git clone https://github.com/RomanSlep/hot_reload_extention.git
 mv hot_reload_extention watcher
 cd watcher
 npm i
+cd ../
 ```
 2. Install the extension along the path `/ ex` in developer mode.
 3. Fill in the `conf.json` file or create your own.
