@@ -4,7 +4,8 @@ Watcher, hot reload, monitoring changes in the development of Google Chrome exte
 1. Clone rep:
 ```
 git clone https://github.com/RomanSlep/hot_reload_extention.git
-cd hot_reload_extention
+mv hot_reload_extention watcher
+cd watcher
 npm i
 ```
 2. Install the extension along the path `/ ex` in developer mode.
